@@ -1003,7 +1003,7 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="20" />
                 <Component Subtype="Construction" Count="10" />
-                <Component Subtype="PowerCell" Count="80">
+                <Component Subtype="PowerCell" Count="1200">
                     <DeconstructId>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Scrap</SubtypeId>
@@ -1027,7 +1027,7 @@
             <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
             <RequiredPowerInput>12</RequiredPowerInput>
             <AdaptibleInput>true</AdaptibleInput>
-            <MaxStoredPower>3</MaxStoredPower>
+            <MaxStoredPower>7.5</MaxStoredPower>
             <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
             <RechargeMultiplier>0.8</RechargeMultiplier>
             <InventorySize>
@@ -1067,7 +1067,7 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="5" />
                 <Component Subtype="Construction" Count="2" />
-                <Component Subtype="PowerCell" Count="20">
+                <Component Subtype="PowerCell" Count="400">
                     <DeconstructId>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Scrap</SubtypeId>
@@ -1097,7 +1097,7 @@
             <MaxPowerOutput>4</MaxPowerOutput>
             <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
             <RequiredPowerInput>4</RequiredPowerInput>
-            <MaxStoredPower>1</MaxStoredPower>
+            <MaxStoredPower>2.5</MaxStoredPower>
             <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
             <RechargeMultiplier>0.8</RechargeMultiplier>
             <InventorySize>

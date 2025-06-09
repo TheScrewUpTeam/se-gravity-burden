@@ -18,7 +18,7 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="20" />
                 <Component Subtype="Construction" Count="10" />
-                <Component Subtype="PowerCell" Count="80">
+                <Component Subtype="PowerCell" Count="1200">
                     <DeconstructId>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Scrap</SubtypeId>
@@ -44,7 +44,7 @@
             <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
             <RequiredPowerInput>12</RequiredPowerInput>
             <AdaptibleInput>true</AdaptibleInput>
-            <MaxStoredPower>3</MaxStoredPower>
+            <MaxStoredPower>7.5</MaxStoredPower>
             <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
             <RechargeMultiplier>0.8</RechargeMultiplier>
 
@@ -83,7 +83,7 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="5" />
                 <Component Subtype="Construction" Count="2" />
-                <Component Subtype="PowerCell" Count="20">
+                <Component Subtype="PowerCell" Count="400">
                     <DeconstructId>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Scrap</SubtypeId>
@@ -107,7 +107,7 @@
 
             <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
             <RequiredPowerInput>4</RequiredPowerInput>
-            <MaxStoredPower>1</MaxStoredPower>
+            <MaxStoredPower>2.5</MaxStoredPower>
             <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
             <RechargeMultiplier>0.8</RechargeMultiplier>
 
@@ -147,7 +147,7 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="2" />
                 <Component Subtype="Construction" Count="1" />
-                <Component Subtype="PowerCell" Count="2">
+                <Component Subtype="PowerCell" Count="20">
                     <DeconstructId>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Scrap</SubtypeId>
@@ -171,7 +171,7 @@
 
             <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
             <RequiredPowerInput>0.2</RequiredPowerInput>
-            <MaxStoredPower>0.05</MaxStoredPower>
+            <MaxStoredPower>0.125</MaxStoredPower>
             <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
             <RechargeMultiplier>0.8</RechargeMultiplier>
 
