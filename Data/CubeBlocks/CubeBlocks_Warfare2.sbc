@@ -1003,7 +1003,7 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="20" />
                 <Component Subtype="Construction" Count="10" />
-                <Component Subtype="PowerCell" Count="1200">
+                <Component Subtype="PowerCell" Count="200">
                     <DeconstructId>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Scrap</SubtypeId>
@@ -1023,11 +1023,11 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
-            <MaxPowerOutput>12</MaxPowerOutput>
+            <MaxPowerOutput>1.25</MaxPowerOutput>
             <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-            <RequiredPowerInput>12</RequiredPowerInput>
+            <RequiredPowerInput>1.25</RequiredPowerInput>
             <AdaptibleInput>true</AdaptibleInput>
-            <MaxStoredPower>7.5</MaxStoredPower>
+            <MaxStoredPower>2</MaxStoredPower>
             <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
             <RechargeMultiplier>0.8</RechargeMultiplier>
             <InventorySize>
@@ -1067,7 +1067,7 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="5" />
                 <Component Subtype="Construction" Count="2" />
-                <Component Subtype="PowerCell" Count="400">
+                <Component Subtype="PowerCell" Count="100">
                     <DeconstructId>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Scrap</SubtypeId>
@@ -1094,10 +1094,10 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
-            <MaxPowerOutput>4</MaxPowerOutput>
+            <MaxPowerOutput>1</MaxPowerOutput>
             <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-            <RequiredPowerInput>4</RequiredPowerInput>
-            <MaxStoredPower>2.5</MaxStoredPower>
+            <RequiredPowerInput>1</RequiredPowerInput>
+            <MaxStoredPower>0.625</MaxStoredPower>
             <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
             <RechargeMultiplier>0.8</RechargeMultiplier>
             <InventorySize>
